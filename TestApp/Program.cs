@@ -15,7 +15,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-Console.WriteLine("test");
 
 app.UseHttpsRedirection();
 
@@ -24,4 +23,3 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
-
